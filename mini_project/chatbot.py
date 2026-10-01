@@ -39,7 +39,12 @@ while True:
     if question.lower().strip()=="doctor":
         new_system_msg="your a doctor and answer in one line"
         history[0]["content"]=new_system_msg
-        
+    if question.lower().strip()=="pilot":
+            new_system_msg="your a pilot and answer in one line"
+            history[0]["content"]=new_system_msg
+    if question.lower().strip()=="enterprenur":
+            new_system_msg="your a enterprenur and answer in one line"
+            history[0]["content"]=new_system_msg
             
             
 

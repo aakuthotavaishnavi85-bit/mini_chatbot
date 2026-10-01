@@ -5,7 +5,7 @@ response = chat(
     messages=[
         {
             "role": "user",
-            "content": "what is sql"
+            "content": "what is sql, in one line "
         }
     ]
 )
